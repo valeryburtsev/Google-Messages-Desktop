@@ -14,3 +14,7 @@ or
 yarn install
 yarn build
 ```
+
+Known issues:
+
+* Account switching is not implemented
