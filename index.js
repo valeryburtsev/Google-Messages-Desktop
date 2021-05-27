@@ -38,7 +38,8 @@ function createWindow() {
     mainWindow.webContents.insertCSS('.main-nav-header, .header {-webkit-app-region: drag;}')
     if (process.platform == 'darwin') {
       mainWindow.webContents.insertCSS('.main-nav-header {margin-top: 16px;}')
-      mainWindow.webContents.insertCSS('@media (max-width: 560px) { .header { margin-top: 16px; } }')
+      mainWindow.webContents.insertCSS('mw-settings-container .header {padding-top: 54px;}')
+      mainWindow.webContents.insertCSS('@media (max-width: 560px) { .header { padding-top: 54px !important; } }')
     }
  });
 
